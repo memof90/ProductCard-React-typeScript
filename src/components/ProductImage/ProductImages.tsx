@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 
-import blue from "../assets/blue.png";
-import black from "../assets/black.png";
-import green from "../assets/green.png";
-import red from "../assets/red.png";
-import orange from "../assets/orange.png";
+import blue from "../../assets/blue.png";
+import black from "../../assets/black.png";
+import green from "../../assets/green.png";
+import red from "../../assets/red.png";
+import orange from "../../assets/orange.png";
 
 const ProductImages = () => {
   return (

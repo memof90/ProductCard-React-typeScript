@@ -1,0 +1,29 @@
+.Info_shoeName {
+    border-bottom: 1px solid #dadada;
+}
+.Info_shoeName {
+    padding: $padding_Line;
+
+    div {
+        @include fc(1,0);
+        .Info_big {
+            color: #333;
+            font-size: 2rem;
+            margin-right: 10px;
+            line-height: 1;
+        }
+        .Info_new {
+            background: var(--primary);
+            border-radius: 5px;
+            color: #fff;
+            padding: 3px 10px;
+            text-transform: uppercase;
+        }
+    }
+    .Info_small {
+        color: #444;
+        font-weight: 500;
+        margin-top: 3px;
+        text-transform: uppercase;
+    }
+}

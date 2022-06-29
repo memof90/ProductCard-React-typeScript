@@ -1,0 +1,11 @@
+
+@import "./Info/styles.scss";
+@import "./Gradient/styles.scss";
+
+.main {
+    background: #fff;
+    box-shadow: $box-shadow1;
+    width: 50%;
+    padding: 35px 40px;
+    z-index: 1;
+}

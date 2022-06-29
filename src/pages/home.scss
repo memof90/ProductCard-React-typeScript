@@ -1,0 +1,56 @@
+@import "../components/main.scss";
+
+.Home_container {
+    @include fc;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 40px;
+}
+.Home_Card {
+    @include fc;
+    width: 860px;
+}
+.Home_shoeBackground {
+    position: relative;
+    width: 50%;
+    height: 475px;
+    box-shadow: $box-shadow2;
+    transition: 0.5s;
+}
+
+.Home_nike {
+  color: white;
+  font-size: 11rem;
+  left: 15px;
+  line-height: 0.9;
+  opacity: 0.1;
+  position: absolute;
+  text-transform: uppercase;
+  top: 85px;  
+}
+
+.Home_logo {
+    position: absolute;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+}
+
+.Home_share {
+    @include fc;
+    background: #fff;
+    border-radius: 50%;
+    color: var(--primary);
+    font-size: 1.3rem;
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    text-decoration: none;
+    top: 15px;
+    transition: 0.5s;
+    width: 50px;
+    z-index: 10;
+    &:hover {
+      transform: scale(1.1);
+    }
+}
