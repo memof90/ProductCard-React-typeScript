@@ -2,6 +2,7 @@ import React from 'react'
 import ColorContainer from './ColorContainer'
 import Description from './Description'
 import Info from './Info'
+import SizeContainer from './SizeContainer'
 
 const Main = ()  =>{
   return (
@@ -9,6 +10,7 @@ const Main = ()  =>{
       <Info />
       <Description />
       <ColorContainer />
+      <SizeContainer />
     </div>
   )
 }

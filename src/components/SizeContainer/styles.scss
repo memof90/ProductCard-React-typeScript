@@ -1,0 +1,26 @@
+.sizeContainer {
+    border-bottom: 1px solid #dadada;
+    padding: 10px 0;
+    margin-bottom: 10px;
+
+    .sizeContainer__sizes {
+        @include fc(1,0);
+        padding: 8px 0;
+        .sizeContainer_size {
+            @include fc;
+            cursor: pointer;
+            background: #eee;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            height: 40px;
+            margin: 0 10px;
+            width: 40px;
+
+            &.active {
+                background: var(--primary);
+                color: #fff;
+            }
+        }
+    }
+}
