@@ -1,0 +1,157 @@
+@media (max-width: 1070px) {
+    .shoe {
+        width: 135%;
+    }
+}
+@media (max-width: 1000px) {
+    .github-fork-ribben {
+        display: none;
+    }
+    .Home_Card {
+        flex-direction: column;
+        width: 100%;
+        box-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.2);
+        & > div {
+            width: 100%;
+            box-shadow: none;
+        }
+        
+     .shoe {
+        width: 100%;
+        transform: rotate(-5deg) translateY(-50%);
+        top: 55%;
+        right: 2%;
+     }
+     .Home_nike  {
+        top: 20%;
+        left: 5%;
+     }
+    }
+}
+
+@media (max-width: 600px) {
+    .Home_share {
+        width: 40px;
+        height: 40px;
+        svg {
+            font-size: 1rem;
+        }
+    }
+    .Home_logo {
+        width: 70px;
+    }
+}
+
+@media (max-width: 490px) {
+    .Home_Card {
+        .Home_nike {
+            font-size: 7rem;
+        }
+    }
+    .Info_shoeName {
+        padding: 20px;
+        .Info_big {
+            font-size: 1.3rem !important;
+        }
+        .Info_small {
+            font-size: 1rem;
+        }
+        .Info_new {
+            padding: 2px 6px;
+            font-size: 0.9rem;
+        }
+        .description_title {
+            font-size: 0.9rem;
+        }
+        .description_text {
+            font-size: 0.8rem;
+        }
+        .buyPrice {
+            .buyPrice__buy {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+            .buyPrice__price {
+                h1 {
+                    font-size: 1.5rem;
+                }
+                svg {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .colorContainer {
+            .colorContainer_colors {
+                .colorContainer_color {
+                    margin: 0 20px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+        .sizeContainer {
+            .sizeContainer__sizes {
+                .sizeContainer_size {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0 8px;
+                    font-size: 0.9rem;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .Home_share {
+        width: 35px;
+        height: 35px;
+        top: 10px;
+        right: 10px;
+    }
+
+    svg {
+        font-size: 0.8rem;
+    }
+
+    .Home_logo {
+        width: 60px;
+        top: 10px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .buyPrice__buy svg {
+        display: none;
+    }
+    .Home_container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 340px) {
+    .Info_shoeName {
+        .colorContainer {
+            .colorContainer_colors {
+                display: flex;
+                justify-content: space-around;
+                .colorContainer_color {
+                    margin: 0;
+                }
+            }
+        }
+
+        .sizeContainer {
+            .sizeContainer__sizes {
+                display: flex;
+                justify-content: space-around;
+                .sizeContainer_size {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
