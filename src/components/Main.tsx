@@ -1,4 +1,5 @@
 import React from 'react'
+import BuySection from './Buy'
 import ColorContainer from './ColorContainer'
 import Description from './Description'
 import Info from './Info'
@@ -11,6 +12,7 @@ const Main = ()  =>{
       <Description />
       <ColorContainer />
       <SizeContainer />
+      <BuySection />
     </div>
   )
 }

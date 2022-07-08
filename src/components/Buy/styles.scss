@@ -1,0 +1,38 @@
+.buyPrice {
+    @include fc(1,0);
+    padding: 15px 0;
+    justify-content: space-between;
+
+    .buyPrice__buy {
+        background: var(--primary);
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding:  0.7rem 1rem;
+        text-decoration: none;
+        font-style: normal;
+        text-transform: uppercase;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.1);
+        }
+        svg {
+            margin-right: 5px;
+        }
+    }
+    .buyPrice__price {
+        align-items: flex-start;
+        color: #333;
+        display: flex;
+
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 600;
+            line-height: 1;
+        }
+        svg {
+            font-size: 1.4rem;
+            margin-right: 1px;
+        }
+    }
+}
