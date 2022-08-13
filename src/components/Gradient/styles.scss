@@ -14,8 +14,8 @@
     z-index: -2;
 }
 
-@each $color, $gradient in gradientBgs {
-    .Gradients_gradient[color="{$color}"] {
+@each $color, $gradient in $gradientBgs {
+    .Gradients_gradient[color="#{$color}"] {
         background-image: $gradient;
     }
 }

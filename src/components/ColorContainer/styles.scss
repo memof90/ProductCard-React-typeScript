@@ -1,14 +1,14 @@
-.colorContainer {
+.color_container {
     border-bottom: 1px solid #dadada;
     padding: 10px 0;
 }
 
-.colorContainer_colors {
+.colors {
     @include fc(1,0);
     padding: 8px 0;
 }
 
-.colorContainer_color  {
+.color {
     cursor: pointer;
     border: 5px solid;
     border-radius: 50%;
@@ -17,28 +17,28 @@
     transition: 0.5s;
     width: 25px; 
 }
-.colorContainer_color[color="blue"] {
+.color[color="blue"] {
     background-color: #2175f5;
     border-color: #2175f5;
 }
-.colorContainer_color[color="red"] {
+.color[color="red"] {
     background-color: #f84848;
     border-color: #f84848;
 }
-.colorContainer_color[color="green"] {
+.color[color="green"] {
     background-color: #29b864;
     border-color: #29b864;
 }
-.colorContainer_color[color="orange"] {
+.color[color="orange"] {
     background-color: #ff5521;
     border-color: #ff5521;
 }
-.colorContainer_color[color="black"] {
+.color[color="black"] {
     background-color: #444;
     border-color: #444;
 }
 
-.colorContainer_color.active {
+.color.active {
     border-color: #fff;
     box-shadow: $box-shadow3;
     transform: scale(1.1);
